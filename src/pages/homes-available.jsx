@@ -2,7 +2,6 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Stack } from '@mui/material';
 
-import LabelBottomNavigation from '../components/Nav.jsx';
 import GridHomeCard from '../components/findahome/gridHomeCard.jsx';
 import HomeCard from '../components/findahome/homeCard.jsx';
 
@@ -33,7 +32,6 @@ export default function HomesAvailable() {
           </div>
         </Stack>
       </div>
-      <LabelBottomNavigation />
     </div>
   );
 }

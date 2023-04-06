@@ -1,6 +1,4 @@
 import * as React from 'react';
-import LabelBottomNavigation from '../components/Nav.jsx'
-import Map from '../components/findahome/map'
 import CustomForm from '../components/findahome/console'
 import Stack from '@mui/material/Stack'
 
@@ -20,7 +18,6 @@ export default function FindAHome() {
           <CustomForm />
         </Stack>
       </div>
-      <LabelBottomNavigation />
     </div>
   )
 }
