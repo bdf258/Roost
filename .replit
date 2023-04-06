@@ -1,0 +1,10 @@
+run="npm start"
+entrypoint="src/App.jsx"
+
+[packager]
+language = "nodejs"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+enabledForHosting = false
